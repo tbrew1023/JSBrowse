@@ -225,7 +225,7 @@ var browser = (function(configModule, tabsModule) {
 
 
 
-  Browser.prototype.doLayout = function(e) { //stage for multi-window webview tabs
+  Browser.prototype.doLayout = function(e) { //stage for multi-window webview tabs (packery)
     var controlsHeight = this.controlsContainer.offsetHeight;
     var windowWidth = document.documentElement.clientWidth;
     var windowHeight = document.documentElement.clientHeight;
